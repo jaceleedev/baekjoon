@@ -4,7 +4,7 @@
 const fs = require('fs')
 const input = fs.readFileSync('/dev/stdin').toString().split('\n')
 
-const arr = input.flat(1).map(Number)
+const arr = input.map(Number)
 
 let max = -1
 let maxIndex = -1
