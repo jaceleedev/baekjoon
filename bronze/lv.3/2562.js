@@ -2,7 +2,7 @@
 // https://www.acmicpc.net/problem/2562
 
 const fs = require('fs')
-const input = fs.readFileSync('/dev/stdin').toString().split('\n')
+const input = fs.readFileSync('/dev/stdin').toString().trim().split('\n')
 
 const arr = input.map(Number)
 
